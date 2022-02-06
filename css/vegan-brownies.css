@@ -4,6 +4,12 @@
     background-size: cover;
     padding-bottom: 15px;
 }
+#main2 {
+    background-image: url(/images/chicken-piccata.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 15px;
+}
 body {
     font-weight: bold;
     color: black;
@@ -15,7 +21,7 @@ h1, .des, .ingredients {
     border-style: solid;
     border-radius: 12px;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(243, 183, 142);
     display: flex;
     flex-direction: column;
     width:fit-content;
