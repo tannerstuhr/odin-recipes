@@ -1,0 +1,39 @@
+#main {
+    background-image: url(/images/vegan-brownies.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 15px;
+}
+body {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(243, 183, 142);
+    border-bottom: solid;
+}
+
+h1, .des, .ingredients {
+    border-style: solid;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    margin: 10px;
+}
+h1 {
+    margin: 10px;
+}
+.ingredients {
+    align-items: left;
+    align-content: left;
+    list-style-type: square;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+
+.heading {
+    display: inline-flex;
+    flex-direction: column;
+}
